@@ -6,7 +6,7 @@
 /*   By: edcastro <edcastro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 10:17:44 by edcastro          #+#    #+#             */
-/*   Updated: 2023/11/04 10:17:45 by edcastro         ###   ########.fr       */
+/*   Updated: 2023/11/04 10:31:10 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static int	parse_color(int fd, t_map *map, char *tabj)
 	if (*tabj == ',')
 		tabj++;
 	else
-		return (0xFFFFFFFF);
+		return (-1);
 	if ((ft_strncmp(tabj, "0X", 2) && ft_strncmp(tabj, "0x", 2)))
 		error_map(fd, map, INVALID_MAP);
 	tabj += 2;

@@ -6,7 +6,7 @@
 /*   By: edcastro <edcastro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 10:33:57 by edcastro          #+#    #+#             */
-/*   Updated: 2023/11/04 10:33:58 by edcastro         ###   ########.fr       */
+/*   Updated: 2023/11/04 10:43:42 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,12 @@
 # define INVALID_MAP		"Map is invalid"
 # define FILE_ERROR			"Unable to open file"
 
+enum	boolean
+{
+	FALSE,
+	TRUE
+};
+
 typedef struct s_point3d
 {
 	double	x;
@@ -65,7 +71,7 @@ typedef struct s_map
 	int				cols;
 	int				high;
 	int				low;
-	bool			use_zcolor;
+	enum boolean	use_zcolor;
 	double			x_offset;
 	double			y_offset;
 	double			interval;

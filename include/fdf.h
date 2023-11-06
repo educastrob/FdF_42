@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fdf.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edcastro <edcastro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 10:33:57 by edcastro          #+#    #+#             */
-/*   Updated: 2023/11/04 10:43:42 by edcastro         ###   ########.fr       */
+/*   Updated: 2023/11/06 11:36:05 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 # include <math.h>
 # include <errno.h>
 # include <stdio.h>
-# include <string.h>
 # include "../library/MLX42/include/MLX42/MLX42.h"
 # include "../library/libft/inc/libft.h"
 

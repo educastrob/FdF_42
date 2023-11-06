@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edcastro <edcastro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 10:17:49 by edcastro          #+#    #+#             */
-/*   Updated: 2023/11/04 10:17:50 by edcastro         ###   ########.fr       */
+/*   Updated: 2023/11/06 11:36:28 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/fdf.h"
 
-int	valid_filename(const char *filename)
+int		valid_filename(const char *filename)
 {
 	int	len;
 

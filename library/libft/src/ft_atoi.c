@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mwallage <mwallage@student.42berlin.de>    +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 16:33:11 by mwallage          #+#    #+#             */
-/*   Updated: 2023/09/21 16:30:40 by mwallage         ###   ########.fr       */
+/*   Created: 2023/11/06 11:59:17 by edcastro          #+#    #+#             */
+/*   Updated: 2023/11/06 11:59:17 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

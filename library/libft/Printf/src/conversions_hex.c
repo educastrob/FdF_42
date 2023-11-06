@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   conversions_hex.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mwallage <mwallage@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/27 18:40:00 by mwallage          #+#    #+#             */
-/*   Updated: 2023/07/13 15:27:03 by mwallage         ###   ########.fr       */
+/*   Created: 2023/11/06 11:58:16 by edcastro          #+#    #+#             */
+/*   Updated: 2023/11/06 11:58:17 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

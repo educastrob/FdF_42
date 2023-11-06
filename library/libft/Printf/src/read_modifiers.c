@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   read_modifiers.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mwallage <mwallage@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/30 18:02:31 by mwallage          #+#    #+#             */
-/*   Updated: 2023/05/30 18:20:13 by mwallage         ###   ########.fr       */
+/*   Created: 2023/11/06 11:58:35 by edcastro          #+#    #+#             */
+/*   Updated: 2023/11/06 11:58:36 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

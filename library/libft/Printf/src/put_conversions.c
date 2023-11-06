@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   put_conversions.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mwallage <mwallage@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/27 18:28:34 by mwallage          #+#    #+#             */
-/*   Updated: 2023/06/01 16:26:29 by mwallage         ###   ########.fr       */
+/*   Created: 2023/11/06 11:58:31 by edcastro          #+#    #+#             */
+/*   Updated: 2023/11/06 11:58:31 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

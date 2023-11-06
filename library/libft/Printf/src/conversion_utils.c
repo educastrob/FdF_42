@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   conversion_utils.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mwallage <mwallage@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/30 18:16:15 by mwallage          #+#    #+#             */
-/*   Updated: 2023/07/07 16:32:37 by mwallage         ###   ########.fr       */
+/*   Created: 2023/11/06 11:58:13 by edcastro          #+#    #+#             */
+/*   Updated: 2023/11/06 11:58:13 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

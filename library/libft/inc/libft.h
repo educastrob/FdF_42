@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mwallage <mwallage@student.42berlin.de>    +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/02 13:05:42 by mwallage          #+#    #+#             */
-/*   Updated: 2023/10/15 20:17:35 by mwallage         ###   ########.fr       */
+/*   Created: 2023/11/06 11:57:56 by edcastro          #+#    #+#             */
+/*   Updated: 2023/11/06 13:06:05 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 # endif
 
 # ifndef __FD_SETSIZE
-#	define __FD_SETSIZE 24
+#  define __FD_SETSIZE 24
 # endif
 
 typedef struct s_list

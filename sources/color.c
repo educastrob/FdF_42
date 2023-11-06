@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   color.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edcastro <edcastro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 10:17:26 by edcastro          #+#    #+#             */
-/*   Updated: 2023/11/04 10:17:26 by edcastro         ###   ########.fr       */
+/*   Updated: 2023/11/06 13:26:54 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int	get_color(t_point2d current, t_point2d a, t_point2d b)
 
 	if (a.rgba == b.rgba)
 		return (a.rgba);
-	if (abs(b.x - a.x) > abs(b.y - a.y))
+	if (fabs(b.x - a.x) > fabs(b.y - a.y))
 		percentage = percent(a.x, b.x, current.x);
 	else
 		percentage = percent(a.y, b.y, current.y);
@@ -69,7 +69,7 @@ static int	zcolor(double perc)
 	else if (perc < 0.9)
 		return (COLOR_NINE);
 	else
-		return (COLOR_TEN); 
+		return (COLOR_TEN);
 }
 
 void	set_zcolor(t_map *map)

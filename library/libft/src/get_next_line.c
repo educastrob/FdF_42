@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mwallage <mwallage@student.42berlin.de>    +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/10 14:12:45 by mwallage          #+#    #+#             */
-/*   Updated: 2023/09/30 14:50:10 by mwallage         ###   ########.fr       */
+/*   Created: 2023/11/06 13:02:00 by edcastro          #+#    #+#             */
+/*   Updated: 2023/11/06 13:02:00 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

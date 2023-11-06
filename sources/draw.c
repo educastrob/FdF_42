@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   draw.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edcastro <edcastro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 10:17:30 by edcastro          #+#    #+#             */
-/*   Updated: 2023/11/04 10:17:31 by edcastro         ###   ########.fr       */
+/*   Updated: 2023/11/06 13:27:30 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,21 +19,21 @@ static void	bresenham(mlx_image_t *image, t_point2d a, t_point2d b)
 
 	cur.x = a.x;
 	cur.y = a.y;
-	error[0] = abs(b.x - a.x) - abs(b.y - a.y);
+	error[0] = fabs(b.x - a.x) - fabs(b.y - a.y);
 	while (cur.x != b.x || cur.y != b.y)
 	{
 		if ((uint32_t)cur.x < image->width && (uint32_t)cur.y < image->height)
 			mlx_put_pixel(image, cur.x, cur.y, get_color(cur, a, b));
 		error[1] = 2 * error[0];
-		if (error[1] > -abs(b.y - a.y))
+		if (error[1] > -fabs(b.y - a.y))
 		{
-			error[0] -= abs(b.y - a.y);
+			error[0] -= fabs(b.y - a.y);
 			cur.x += (a.x < b.x);
 			cur.x -= (b.x < a.x);
 		}
-		if (error[1] < abs(b.x - a.x))
+		if (error[1] < fabs(b.x - a.x))
 		{
-			error[0] += abs(b.x - a.x);
+			error[0] += fabs(b.x - a.x);
 			cur.y += (a.y < b.y);
 			cur.y -= (b.y < a.y);
 		}

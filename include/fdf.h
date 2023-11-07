@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fdf.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edcastro <edcastro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 10:33:57 by edcastro          #+#    #+#             */
-/*   Updated: 2023/11/04 10:43:42 by edcastro         ###   ########.fr       */
+/*   Updated: 2023/11/06 13:48:24 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,15 +18,12 @@
 # include <math.h>
 # include <errno.h>
 # include <stdio.h>
-# include <string.h>
-# include "../library/MLX42/include/MLX42/MLX42.h"
+# include "../library/.MLX42/include/MLX42/MLX42.h"
 # include "../library/libft/inc/libft.h"
 
 # define WIDTH				1920
 # define HEIGHT				1080
-# define TEXT_COLOR			0xEAEAEAFF
 # define BACKGROUND			0x22222200
-# define MENU_BACKGROUND	0x1E1E1EFF
 # define COLOR_TEN			0x9e0142ff
 # define COLOR_NINE			0xd53e4fff
 # define COLOR_EIGHT		0xf46d43ff
@@ -42,7 +39,7 @@
 # define INVALID_MAP		"Map is invalid"
 # define FILE_ERROR			"Unable to open file"
 
-enum	boolean
+enum	e_boolean
 {
 	FALSE,
 	TRUE
@@ -59,10 +56,10 @@ typedef struct s_point3d
 
 typedef struct s_point2d
 {
-	int		x;
-	int		y;
-	int		z;
-	int		rgba;
+	double		x;
+	double		y;
+	double		z;
+	int			rgba;
 }			t_point2d;
 
 typedef struct s_map
@@ -71,7 +68,7 @@ typedef struct s_map
 	int				cols;
 	int				high;
 	int				low;
-	enum boolean	use_zcolor;
+	enum e_boolean	use_zcolor;
 	double			x_offset;
 	double			y_offset;
 	double			interval;

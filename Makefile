@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: edcastro <edcastro@student.42.fr>          +#+  +:+       +#+         #
+#    By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/04 10:17:52 by edcastro          #+#    #+#              #
-#    Updated: 2023/11/04 10:17:53 by edcastro         ###   ########.fr        #
+#    Updated: 2023/11/06 13:04:46 by edcastro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC		:= cc
 CFLAGS	:= -Wall -Wextra -Werror -Wunreachable-code -Ofast
-MLX_DIR		:= ./library/MLX42
+MLX_DIR		:= ./library/.MLX42
 MLX		:= $(MLX_DIR)/build/libmlx42.a
 LIBFT_DIR	:= ./library/libft
 LIBFT 	:= $(LIBFT_DIR)/libft.a

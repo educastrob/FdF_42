@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   hooks.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: edcastro <edcastro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edcastro <edcastro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 10:17:37 by edcastro          #+#    #+#             */
-/*   Updated: 2023/11/04 10:17:38 by edcastro         ###   ########.fr       */
+/*   Updated: 2023/11/06 13:08:41 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ void	ft_hook(void *param)
 	if (mlx_is_key_down(fdf->mlx, MLX_KEY_LEFT))
 		fdf->map->x_offset -= 5;
 	if (mlx_is_key_down(fdf->mlx, MLX_KEY_RIGHT))
-		fdf->map->x_offset += 5; 
+		fdf->map->x_offset += 5;
 	if (mlx_is_key_down(fdf->mlx, MLX_KEY_DOWN))
 		fdf->map->y_offset += 5;
 	if (mlx_is_key_down(fdf->mlx, MLX_KEY_UP))
@@ -97,7 +97,7 @@ void	ft_hook_rotate(void *param)
 	else if (mlx_is_key_down(fdf->mlx, MLX_KEY_PERIOD))
 		sign = 1;
 	if (mlx_is_key_down(fdf->mlx, MLX_KEY_Q))
-		fdf->map->alpha += sign * 0.03; 
+		fdf->map->alpha += sign * 0.03;
 	if (mlx_is_key_down(fdf->mlx, MLX_KEY_W))
 		fdf->map->beta += sign * 0.03;
 	if (mlx_is_key_down(fdf->mlx, MLX_KEY_S))

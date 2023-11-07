@@ -6,7 +6,7 @@
 /*   By: edcastro <edcastro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 10:17:30 by edcastro          #+#    #+#             */
-/*   Updated: 2023/11/04 10:17:31 by edcastro         ###   ########.fr       */
+/*   Updated: 2023/11/07 02:25:31 by edcastro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,7 +109,7 @@ void	display_menu(mlx_t *mlx)
 	x = 20;
 	y = 20;
 	mlx_put_string(mlx, "CONTROLS", x, y);
-	mlx_put_string(mlx, "Colour\t\t\t\t\t\t\t\tc", x, y += 35);
+	mlx_put_string(mlx, "Color\t\t\t\t\t\t\t\tc", x, y += 35);
 	mlx_put_string(mlx, "Zoom\t\t\t\t\t\t\t\t\t\tmouse scroll or -+", x, y += 20);
 	mlx_put_string(mlx, "Translate\t\t\t\t\tarrow keys", x, y += 20);
 	mlx_put_string(mlx, "Scale z\t\t\t\t\t\t\ts + </>", x, y += 20);
